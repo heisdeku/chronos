@@ -1,0 +1,19 @@
+.todo__item {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.todo__item p {
+    font-size: 18px;
+}
+
+.todo__item--details {
+    width: 70%;
+}
+
+.todo__item--actions {
+    display: flex;
+    align-items: center;
+}

@@ -1,20 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,400&display=swap');
 html,
 body,
 #root {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+    max-width: 60vw;
+    margin: 2rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .App {
+        max-width: 80vw;
+    }
+}
+
+.todo {
+    width: 100%;
+}
+
+.todo__upper {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.todo__inputfield {
+    width: 70%;
+    height: 35px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 4px 10px;
 }
