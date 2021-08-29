@@ -20,7 +20,7 @@
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "build-plugin": "cross-env PUBLIC_URL=https://deku-todo-plugin.netlify.app npm run build"
+        "build-plugin": "cross-env PUBLIC_URL=http://zc-react-todolist-plugin.netlify.app npm run build"
     },
     "eslintConfig": {
         "extends": [
